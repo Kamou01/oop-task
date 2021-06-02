@@ -21,7 +21,7 @@ class TicketSales:
         self.lblTicket = Label(window, text="Number of Tickets Bought: ", font="Arial 15")
         self.lblTicket.place(x=40, y=180)
         # A label used to display the output
-        self.Display = Label(window, bg="yellow", fg="black", font="Arial 15")
+        self.Display = Label(window, font="Arial 15")
         self.Display.place(x=150, y=400, width=400, height=200)
 
         # entry window
@@ -98,3 +98,4 @@ class TicketSales:
 
 objectSales = TicketSales(gui)
 gui.mainloop()
+
